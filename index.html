@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+    <head>
+        <title>Blood Donation - Home Page</title>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS\style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/dd6257b12f.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="container-md-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fas fa-phone" style="color: #eb4242;"></span> +923365918689</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fas fa-envelope" style="color: #eb4242;"></span> info@dontor.com</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Follow us |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fab fa-facebook"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fab fa-twitter"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fab fa-google"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fab fa-linkedin"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fab fa-youtube"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fab fa-instagram"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container-md-fluid">
+            <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Resources/BD_logo.png" width="30%" height="30%">
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item font-weight-bold mr-3 uLine">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item font-weight-bold mr-3 uLine">
+                        <a class="nav-link" href="php/About_Us.php">About Us</a>
+                    </li>
+                    <li class="nav-item font-weight-bold mr-3 uLine">
+                        <a class="nav-link" href="php/Donor_List.php">Donor List</a>
+                    </li>
+                    <li class="nav-item font-weight-bold mr-3 uLine">
+                        <a class="nav-link" href="php/Reg_Form.php"><i class="fas fa-user-plus"></i> Register With Us</a>
+                    </li>
+                    <li class="nav-item font-weight-bold mr-3 uLine">
+                        <a class="nav-link" href="php/Login_Page.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline" method="" action="">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search Blood Group or Location" style="width:300px;">
+                            <button class="btn btn-danger" type="submit"><span class="fas fa-search"> Search</span></button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container-md-fluid">
+            <div class="skewStyle" style="position: relative;">
+                <div class="skewContent">
+
+                    <div style="z-index: -2;">
+                        <video autoplay muted loop>
+                          <source src="Resources/BG_vid.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div style="height:100%; width:100%; background-color:rgba(0,0,0,0.4); position: absolute; top:0px;"></div>
+                    <div data-aos="fade-right" data-aos-duration="1000" style="font-size:50px; position:absolute; top:350px; left:200px; color: white;">
+                        <h1>Donate Blood to Save Life</h1>
+                        <h3>Life is the greatest gift of all and it is up to us to protect it.</h3>
+                        <button type="button" class="btn btn-danger" onclick="window.location.href = 'php/Login_Page.php';">Donate Now</button> <button type="button" class="btn btn-danger" onclick="window.location.href = 'php/Learn_More.php';"><span class="fas fa-lightbulb"> Learn More</span></button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skewStyleInv">
+                <div data-aos="fade-up" data-aos-duration="1000" class="skewContentInv">
+                    <h1 style="padding-top:100px; text-align: center;">Our Donor Count!</h1>
+
+                    <div class="row text-center" style="padding-left:300px; padding-top:30px;">
+                        <div class="col-md-4">
+                            <div class="counter card shadow mb-5 bg-dark rounded">
+                                <i class="fas fa-tint fa-2x"></i>
+                                <h2 class="count-title count-number">100+</h2>
+                                <p class="count-text ">Active Donors</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter card shadow mb-5 bg-dark rounded">
+                                <i class="fas fa-heartbeat fa-2x"></i>
+                                <h2 class="count-title count-number">2000+</h2>
+                                <p class="count-text ">Lives Saved</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter card shadow mb-5 bg-dark rounded">
+                                <i class="fas fa-dna fa-2x"></i>
+                                <h2 class="count-title count-number">5000+</h2>
+                                <p class="count-text ">Volunteers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skewStyle">
+                <div class="skewContent" style="position: relative;">
+                    <div style="z-index: -2;">
+                        <img src="Resources\BG_img2.jpg">
+                    </div>
+
+                    <div style="height:100%; width:100%; background-color:rgba(0,0,0,0.4); position: absolute; top:0px;"></div>
+                    <div data-aos="fade-left" data-aos-duration="1000" style="font-size:50px; position:absolute; top:200px; left:800px; color: white;">
+                        <h1>We have Thousands of Volunteers listed in our Database.</h1>
+                        <h3>Search now for the one closet to you!</h3>
+                        <button type="button" class="btn btn-danger" onclick="window.location.href = 'php/Donor_List.php';"><span class="fas fa-search"> Find a Donor</span></button>
+                    </div>
+                    <div style="font-size:50px; position:absolute; bottom:0px; left:0px; color: white;">
+                        <img src="Resources\BG_img3.png" style="width:50%; height:50%;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="skewStyleInv">
+                <div class="skewContentInv">
+                    <div class="row text-center" style="padding-top:76px; padding-left:150px;">
+                        <div class="col-md-4">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="card shadow-sm mb-5 bg-white rounded" style="width:400px; height:345px; border-radius:10px;">
+                                <img class="card-img-top" src="Resources\SRC_img1.png" style="padding-top:5px; margin:auto; width:170px; height:120px;">
+                                <div class="card-body">
+                                  <h4 class="card-title">Be a Donor, be a Hero</h4>
+                                  <p class="card-text">Every year on 14 June, countries around the world celebrate World Blood Donor Day.The event, established in 2004, serves to raise awareness of the need for safe blood and blood products.</p>
+                                  <a href="#" class="btn btn-danger">See How!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
+                            <div class="card shadow-sm mb-5 bg-white rounded" style="width:400px; height:345px; border-radius:10px;">
+                                <img class="card-img-top" src="Resources\SRC_img2.png" alt= style="padding-top:5px; style="margin:auto; width:170px; height:120px;">
+                                <div class="card-body">
+                                  <h4 class="card-title">Blood Donor Day</h4>
+                                  <p class="card-text">Every year on 14 June, countries around the world celebrate World Blood Donor Day.The event, established in 2004, serves to raise awareness of the need for safe blood and blood products.</p>
+                                  <a href="#" class="btn btn-danger">Learn More!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="3000" class="col-md-4">
+                            <div class="card shadow-sm mb-5 bg-white rounded" style="width:400px; height:345px; border-radius:10px;">
+                                <img class="card-img-top" src="Resources\SRC_img3.jpg" style="padding-top:5px; margin:auto; width:300px; height:120px;">
+                                <div class="card-body">
+                                  <h4 class="card-title">Importance of Blood</h4>
+                                  <p class="card-text">Every year on 14 June, countries around the world celebrate World Blood Donor Day.The event, established in 2004, serves to raise awareness of the need for safe blood and blood products.</p>
+                                  <a href="#" class="btn btn-danger">Read Here!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skewStyle">
+                <div class="skewContent" style="position: relative;">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="Resources\SL_img1.jpeg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Resources\SL_img2.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Resources\SL_img3.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Resources\SL_img4.jpg" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" s style="width:100%; height:450px; background-color:#F8F8F8;">
+                <h1 style="padding-top:100px"></h1>
+                <h1 data-aos="fade-up" data-aos-duration="1000" style="font-size:40px; color:#D4AF37;">"Every blood donor is a life saver"</h1>
+                <p data-aos="fade-up" data-aos-duration="1000" style="font-size:24px;">Every day blood transfusions take place that saves lives of many people all over the world. About 5 million Americans need a blood transfusion. Donating blood is good for the health of donors as well as those who need it.Donating blood can help in treating patients suffering from cancer, bleeding disorders, chronic anemia associated with cancer, sickle cell anemia, and other hereditary blood abnormalities.</p><br><br>
+            </div>
+        </div>
+
+        <footer class="page-footer font-small pt-4" style="background-color:#343a40;">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <img src="Resources\BD_logo2.png" width="30%">
+                    </div>
+
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase" style="color:white;">Join Us in our Mission |</h5>
+                        <ul class="list-unstyled" style="color: white;">
+                            <li>
+                                <a href="php/Donor_List.php">Our Donors</a>
+                            </li>
+                            <li>
+                                <a href="php/About_Us.php">About Us</a>
+                            </li>
+                            <li>
+                                <a href="php/Learn_More.php">Learn More</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h5 class="text-uppercase" style="color:white;">Follow us |</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#"><span class="fab fa-facebook"></span></a> <a href="#"><span class="fab fa-twitter"></span></a> <a href="#"><span class="fab fa-google"></span></a> <a href="#"><span class="fab fa-linkedin"></span></a> <a href="#"><span class="fab fa-youtube"></span></a> <a href="#"><span class="fab fa-instagram"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides()
+            {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+
+                for (i = 0; i < slides.length; i++)
+                {
+                slides[i].style.display = "none";
+                }
+
+                slideIndex++;
+                if (slideIndex > slides.length)
+                {
+                    slideIndex = 1
+                }
+
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 3000);
+            }
+        </script>
+    </body>
+</html>
